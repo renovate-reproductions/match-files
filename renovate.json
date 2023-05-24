@@ -1,0 +1,6 @@
+{
+  "packageRules": [{
+    "matchFiles": ["package.json"],
+    "enabled": false
+  }]
+}
