@@ -1,6 +1,10 @@
 {
   "packageRules": [{
     "matchFiles": ["package.json"],
+    "additionalBranchPrefix": "root-",
     "enabled": false
+  }, {
+    "matchFiles": ["package-lock.json"],
+    "enabled": true
   }]
 }
